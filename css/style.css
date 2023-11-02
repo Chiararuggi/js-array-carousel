@@ -1,0 +1,27 @@
+.my-imgcontainer{
+    width: 50rem;
+    height: 35rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.my-imgcontainer img{
+    object-fit: contain;
+    width:100%;
+    height: 100%;
+    object-position: bottom;
+}
+
+#upButton{
+    position: absolute;
+    right: 23.5rem;
+    top:13.5rem;
+    border-radius: 20px;
+}
+
+#downButton{
+    position: absolute;
+    right: 23.5rem;
+    bottom:1rem;
+    border-radius: 20px;
+}
